@@ -6,17 +6,12 @@ Fix secondary spelling functions not returning correct function name in error
 //$c_ (constant)
 const $c_2PI = Math.PI * 2,
       $c_2PISqrt = $c_2PI ** 0.5,
-
       $c_18DecimalPoints = 0.1 ** 18,
-
       $c_negInfinity = Number.NEGATIVE_INFINITY,
-
       [$c_minValue, $c_maxValue] = [Number.MIN_VALUE, Number.MAX_VALUE],
       [$c_minInteger, $c_maxInteger] = [Number.MIN_SAFE_INTEGER, Number.MAX_SAFE_INTEGER],
-
       [$c_seedMod, $c_seedMultiply] = [0xFFFFFF2F, 0x10003],
       [$c_indexMod, $c_indexMultiply] = [0xFFFFFA7F, 0x10001],
-
       [$c_32bitIntegerLimit, $c_32bitLowerIntegerLimit, $c_32bitUpperIntegerLimit] = [0xFFFFFFFF, ~0x7FFFFFFF, 0x7FFFFFFF];
 
  //LuniZunie's Custom Functions
